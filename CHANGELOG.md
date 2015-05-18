@@ -42,6 +42,10 @@ support for HTTPS connections insead of OpenSSL.
   remote functions now take these options or the callbacks instead of
   setting them beforehand.
 
+* The ssh transport now reports the stderr output from the server as
+  the error message, which allows you to get the "repository not
+  found" messages.
+
 
 ### API additions
 
